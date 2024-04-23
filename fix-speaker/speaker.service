@@ -1,0 +1,12 @@
+[Unit]
+Description=Turn on Speaker
+After=sysinit.target sound.target
+Requires=sysinit.target sound.target
+
+[Service]
+Type=simple
+ExecStart=/opt/speaker.sh
+
+
+[Install]
+WantedBy=multi-user.target
