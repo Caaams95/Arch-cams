@@ -1,0 +1,2 @@
+- Lancer les commandes du présent dans le fichier cammands.txt
+- Pour de la persistance, mettre les commandes dans le : ```/home/cams/.config/fish/config.fish```
