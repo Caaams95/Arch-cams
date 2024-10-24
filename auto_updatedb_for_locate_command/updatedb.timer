@@ -1,0 +1,9 @@
+[Unit]
+Description=Run updatedb at boot
+
+[Timer]
+OnBootSec=5min
+Unit=updatedb.service
+
+[Install]
+WantedBy=timers.target
